@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Open+Sans+Condensed:ital,wght@1,300&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  font-weight: lighter;
+}
+.header_top {
+  display: flex;
+}
+.logo {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 150px;
+  height: 100px;
+}
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.seachbox {
+  width: 500px;
+}
+.seach {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.seach input {
+  width: 500px;
+  height: 40px;
+  border: solid 1px #d6e4e3;
+  border-right: none !important;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 15px;
+  background: rgb(216, 210, 210);
+}
+.seachbox span {
+  margin-left: 550px;
+  position: absolute;
+  margin-top: -40px;
+}
+
+.seachbox span button {
+  padding: 0px 20px;
+  height: 40px;
+  background: #7ca877;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+.seachbox span button i {
+  color: white;
+}
+.cart {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #7ca877;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 200px;
+  position: relative;
+  cursor: pointer;
+}
+.nencart {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -7px;
+  width: 40px;
+  height: 40px;
+  background: #7ca877;
+  border-radius: 50%;
+}
+.nencart a {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 13px;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.dangnhap {
+  width: 100px;
+  height: 100px;
+  margin-top: -4x;
+  margin-left: 20px;
+}
+.dangnhap a {
+  text-decoration: none;
+}
+.dangnhap a i {
+  font-size: 30px;
+}
+.hotline {
+  width: 150px;
+  height: 30px;
+  background: firebrick;
+  margin-top: 40px;
+  margin-left: 100px;
+  border-radius: 5px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.hotline p {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.header_menu {
+  width: 100vw;
+}
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  z-index: 9999;
+}
+nav {
+  background: #1a4200;
+}
+.header_menu nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.header_menu nav ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.header_menu ul li a:hover {
+  color: rgb(219, 136, 76);
+}
+.about_title button:hover {
+  background: green;
+  color: white;
+}
+.info button:hover {
+  background: green;
+  color: white;
+}
+#toggle {
+  display: none;
+  color: white;
+  text-align: center;
+  background: chocolate;
+  font-size: 30px;
+  line-height: 50px;
+}
+.tabnho {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 20px;
+  transition: 0.5s ease;
+}
+.tabnho:hover {
+  margin-top: 90px;
+}
+.tabnho button {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  background: none;
+  border: 2px solid green;
+  border-radius: 5px;
+  color: green;
+}
+.tabnho button i {
+  font-size: 20px;
+}
+.tabnho button:hover {
+  background: green;
+  color: white;
+  box-shadow: 0 0 5px gray;
+}
+
+footer {
+  background: #f0f0f0;
+  width: 100vw;
+  margin-top: 80px;
+}
+.foter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.foterphai {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lienhevstoi {
+  text-align: left;
+}
+.lienhevstoi i {
+  margin: 5px;
+  color: black;
+  font-size: 20px;
+}
+.foter .logo {
+  width: 300px;
+  margin-left: -20px;
+  text-align: left;
+}
+
+.foter .gioithieu {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+.foter .gioithieu h3 {
+  color: #1a4200;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.foter .gioithieu p {
+  color: #999999;
+  font-size: 15px;
+}
+
+.foter .songkhoe {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.foter .songkhoe h3 {
+  color: #1a4200;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.foter .songkhoe p {
+  color: #999999;
+  font-size: 15px;
+}
+
+.foter .giomocua {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.foter .giomocua h3 {
+  color: #1a4200;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.foter .giomocua p {
+  color: #999999;
+  font-size: 15px;
+}
+
+.phanhoi {
+  width: 100vw;
+  height: 50px;
+  background: #99cd4e;
+  text-align: center;
+}
+.phanhoi input {
+  width: 400px;
+  height: 40px;
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  margin-top: 5px;
+}
+.header_menu nav ul li .khung {
+  color: rgb(219, 136, 76);
+}
+.phanhoi input::placeholder {
+  color: white;
+  padding-left: 10px;
+}
+
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -728px;
+  }
+  50% {
+    margin-left: -728px;
+  }
+}
+
+.main {
+  width: 400px;
+  height: auto;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px orangered;
+  padding-bottom: 10%;
+  margin-top: 5%;
+}
+.main h2 {
+  text-align: center;
+  margin-bottom: 1px;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  background: orange;
+}
+.main img {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bang {
+  text-align: center;
+}
+.bang .sub {
+  background: orange;
+  border: none;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.bang td {
+  background: white;
+}
+.bang th {
+  background: white;
+  width: 250px;
+}
+.main label {
+  text-align: left;
+}
+.main form {
+  text-align: center;
+}
+.main form input {
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  background: #d6e4e3;
+  border: none;
+}
+.main form input[type="submit"] {
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  background: orchid;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.main form label {
+  margin-left: -200px;
+}
+.error {
+  margin-bottom: 20px;
+  color: #a94442;
+  text-align: left;
+  background: #f2dede;
+  width: 400px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  margin-left: 50px;
+}
+footer {
+  margin-top: 35px;
+}
+@media (max-width: 768px) {
+  aside {
+    display: none;
+  }
+  .sanphamtraicay {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menutieudetrang {
+    margin-left: 260px;
+  }
+  .menumain {
+    margin-left: 15px;
+    margin-top: 50px;
+  }
+  .sanphamtraicay {
+    margin-left: -15px;
+  }
+}
+@media (max-width: 412px) {
+  .menutieudetrang {
+    display: none;
+  }
+  .sanphamtraicay {
+    margin-left: -32px;
+  }
+}
+@media (max-width: 500px) {
+  .menutieudetrang {
+    display: none;
+  }
+  .sanphamtraicay {
+    margin-left: -18px;
+  }
+  .menumain {
+    margin-left: -2px;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,1329 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container {
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #afafaf;
+  color: black;
+  justify-content: center;
+}
+
+.top .header-top {
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-top .tille-top {
+  width: 200px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-left: 10px;
+  line-height: 40px;
+  animation: animationTitleNews 0.75s linear infinite;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+  text-decoration: none
+  
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #676a81;
+  background: #ececec;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+
+  /* font-family: 'Poppins', sans-serif; */
+
+
+/* .header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  background: #fff;
+  padding: 0 30px;
+
+}
+
+/* .serch-box */
+.search-box {
+  display: none;
+}
+
+.search-box .form-group input[type="text"] {
+  width: 100%;
+  padding: 25px;
+  background: #ddd;
+  border: 0;
+  color: #eb1b33;
+  font-size: 24px;
+}
+
+/* .logo */
+.logo {
+  text-transform: capitalize;
+  color: #eb1b33;
+}
+
+/* .header-menu */
+.responsive-menu {
+  display: none;
+  color: #eb1b33;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header-menu ul li a, .head-social-link ul li a {
+  display: block;
+  padding: 0 15px;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(77, 73, 73);
+  transition: .5s all;
+}
+
+.head-social-link ul li a {
+  font-size: 15px;
+  padding: 0 5px;
+  color: #676a81;
+}
+btn-16
+
+.header-menu ul li a:hover, .header-menu ul li a.menu-active {
+  color: #eb1b33;
+  margin-left: 2rem;
+}
+
+.head-social-link ul li a:hover {
+  color: #0b021b;
+}
+
+.responsive-sub-menu {
+  margin: 0 auto;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+}
+/* @keyframes animationTitleNews {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: tomato;
+  }
+}
+/* 
+marquee a {
+  color: white;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.header-top-main {
+  width: 700px;
+  padding-left: 180px;
+}
+
+.header-top-main .hotline-header {
+  display: flex;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  height: 15px;
+  line-height: 40px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+.hotline-space {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #979797;
+  display: inline-block;
+  height: 12px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: -1px;
+  width: 2px;
+}
+
+.middle {
+  display: flex;
+  background: white !important;
+  height: 50px;
+  justify-content: center;
+}
+
+.middle .anh {
+  width: 50px;
+  height: 60px;
+}
+
+.middle .anh img {
+  margin-top: 1px;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.middle form {
+  line-height: 50px;
+  padding-left: 100px;
+}
+
+.middle form input[type="text"] {
+  border: none;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  height: 35px;
+  padding: 0 10px;
+  width: 312px;
+  float: left;
+  margin-right: 3px;
+  margin-top: 7px;
+}
+
+.middle form input[type="submit"] {
+  background: green;
+  height: 35px;
+  text-align: center;
+  width: 80px;
+  font-size: 13px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 32px;
+  text-decoration: none;
+  border-left: 1px solid #fd5a32;
+  border: none;
+}
+
+.middle i {
+  color: white;
+  font-size: 20px;
+  padding-left: 100px;
+  line-height: 50px;
+}
+
+.middle .login {
+  display: flex;
+  margin-left: 10px;
+  line-height: 50px;
+  height: 50px;
+}
+
+.middle .login a {
+  margin-right: 10px;
+}
+
+.middle .login span {
+  border-left: 2px solid lightgrey;
+  padding-right: 10px;
+  height: 30px;
+  margin: auto;
+}
+
+.middle a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bottom {
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+.bottom .trai {
+  width: 22.2%;
+  position: relative;
+  text-align: right;
+  line-height: 50px;
+}
+
+.bottom .trai span {
+  padding: 10px;
+  background: tomato;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+}
+
+.bottom .trai ul {
+  position: relative;
+  width: 238px;
+  margin-top: -3px;
+  background: #f5f5f5;
+  margin-left: 98px;
+  border: 1px solid #e5e5e5;
+  z-index: 9999;
+  min-height: 150px;
+}
+
+.bottom .trai ul li {
+  list-style: none;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+  padding-left: 10px;
+}
+
+/* .bottom .trai ul li:hover {
+  background: tomato;
+  border-left: 3px solid black;
+  transition: 0.5s ease;
+} */
+
+.bottom .trai ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom .phai {
+  width: 78%;
+}
+
+.bottom .phai ul {
+  display: flex;
+}
+
+.bottom .phai ul li {
+  margin-left: 50px;
+  list-style: none;
+}
+
+.giamgia {
+  background: tomato;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.bottom .phai ul li:hover {
+  background: tomato;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: 0.5s ease;
+}
+
+.bottom .phai ul li a:hover {
+  color: white;
+}
+
+.bottom .phai ul li a {
+  text-decoration: none;
+  color: black;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.banner {
+  
+ 
+ }
+ 
+ .banner img {
+   /* margin-left: 40px; */
+   width: 10000px;
+   /* object-fit: cover; */
+   max-width: 100%;
+  height: auto;
+ }
+
+.fot_tren {
+  width: 100%;
+  background: #464444;
+  color: white;
+  height: 400px;
+}
+
+.fot_tren h2 {
+  margin: auto;
+  width: 500px;
+  padding-top: 20px;
+  border-bottom: 2px solid tomato;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.fotter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.chungnhan1 {
+  display: flex;
+  width: 120px;
+  height: 35px;
+}
+
+.chungnhan1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.shop {
+  max-width: 25%;
+  padding-right: 100px;
+}
+
+.shop iframe {
+  width: 90%;
+  height: 200px;
+}
+
+.call {
+  max-width: 25%;
+  padding-right: 100px;
+}
+
+.chungnhan {
+  max-width: 25%;
+}
+
+.fot_duoi {
+  width: 100%;
+  color: black;
+  height: 200px;
+  text-align: center;
+}
+
+.thanhtoan {
+  display: flex;
+  color: black;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  border-bottom: 1px solid tomato;
+  padding-bottom: 30px;
+}
+
+.thanhtoan .phone {
+  max-width: 25%;
+  margin: auto;
+}
+
+.thanhtoan .phone h4 {
+  text-align: center;
+}
+
+.thanhtoan .phone button {
+  width: 100px;
+  height: 30px;
+  background: orangered;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.pay {
+  max-width: 25%;
+  margin: auto;
+}
+
+.pay h4 {
+  text-align: center;
+}
+
+.bank {
+  margin-top: 10px;
+}
+
+.bank img {
+  margin-left: 10px;
+}
+
+.ketnoi {
+  max-width: 25%;
+  margin: auto;
+}
+
+.conn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.conn a {
+  text-decoration: none;
+}
+
+.conn a i {
+  font-size: 40px;
+}
+
+.phone h4 {
+  color: black;
+}
+
+.fot_duoi p {
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 30px;
+}
+.reponsi_phone {
+  display: none;
+  background: #324148 !important;
+  width: 100vw;
+  height: 50px;
+}
+.reponsi_phone .phone {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.reponsi_phone .phone a img {
+  width: 180px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reponsi_phone .phone a {
+  text-decoration: none;
+  width: 20%;
+  height: 50px;
+  cursor: pointer;
+}
+.reponsi_phone .phone .logo {
+  width: 60%;
+}
+.reponsi_phone .phone #toggle {
+  width: 20%;
+}
+.reponsi_phone .phone #toggle i {
+  color: white;
+  line-height: 50px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.reponsi_phone .phone a i {
+  color: white;
+  line-height: 50px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.reponsi_phone nav {
+  position: fixed;
+  z-index: 999;
+  height: 500px;
+  background: #f3f3f3;
+  left: 0;
+  transform: translateX(-180%);
+  transition: 0.5s ease;
+}
+.reponsi_phone .hide {
+  transform: translateX(0%);
+  box-shadow: 0 0 5px gray;
+}
+.reponsi_phone nav ul .menu_title {
+  color: black;
+  background: orange;
+  color: white;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.reponsi_phone nav ul .menu_title .close {
+  right: 0;
+  width: 20px;
+  position: absolute;
+  height: 20px;
+  padding: 6px;
+  top: 0;
+}
+.reponsi_phone nav ul .menu_title .close i {
+  font-size: 25px;
+}
+
+.reponsi_phone nav ul li {
+  list-style: none;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.middle_reponsive {
+  background: #324148 !important;
+  width: 100vw;
+  height: 50px;
+  display: none;
+}
+
+.middle_reponsive form {
+  width: 100%;
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+.middle_reponsive form input {
+  width: 60%;
+  height: 25px;
+  padding-left: 10px;
+}
+.middle_reponsive form input[type="submit"] {
+  width: 15%;
+  height: 28px;
+  background: #fd5a32;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  border-left: 1px solid #fd5a32;
+  border: none;
+  padding-left: 0px;
+}
+.reponsi_phone nav ul .repon_login {
+  display: flex;
+  height: 40px;
+  line-height: 30px;
+}
+
+.reponsi_phone nav ul .repon_login a {
+  width: 50%;
+  height: 30px;
+  text-align: left;
+  line-height: 30px;
+}
+.reponsi_phone nav ul .repon_login a i {
+  color: black;
+  font-size: 15px;
+}
+
+/* Phần sản phẩm */
+.product {
+  /* max-width: 100%; */
+  width: 100%;
+  /* padding-top: 50px; */
+  margin: auto;
+}
+
+.balo {
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+}
+
+.balo .tille {
+  height: 42px;
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+  margin-top: -10px;
+  border-bottom: 3px solid #eb1b33;
+}
+
+.balo .tille h3 {
+  height: 42px;
+  line-height: 40px;
+  padding-right: 10px;
+  background: url("../images/background-title.png") left top no-repeat;
+  background-size: 100px 50px;
+  color: white;
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.sanpham {
+  width: 100%;
+}
+
+.sanpham1 {
+  max-width: 300px;
+  padding-bottom: 50px;
+  margin-right: 20px;
+}
+
+.sanpham1 img {
+  width: 90%;
+  /* border: 1px solid #ececec; */
+  transition: 0.5s ease;
+  height: 250px;
+}
+
+.sanpham1:hover img {
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+.sanpham1 p {
+  color: red;
+  font-weight: 700;
+  height: 40px;
+  /* line-height: 50px; */
+}
+
+.sanpham1 .buy {
+  display: flex;
+  /* margin-top: 10px; */
+  /* flex-wrap: wrap; */
+}
+
+nav{
+  height: 700px;
+}
+
+.sanpham1 h3 {
+  width: 80%;
+  height: 50px;
+}
+.sanpham1 h3 {
+  font-weight: 500;
+  margin-left: 2rem;
+  font-size: medium;
+  cursor: pointer;
+  height: 60px;
+    width: 70%;
+    font-size: 15px;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+}
+
+.sanpham1 .buy button {
+  width: 40%;
+  height: 30px;
+  color: white;
+  background: #37a7e5;
+  border: none;
+  border-radius: 5px;
+  /* margin-bottom: 5px; */
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.sanpham1 .buy button a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.add{
+  border-radius: 5px;
+}
+
+.sanpham1 .buy input {
+  width: 40%;
+  height: 30px;
+  color: white;
+  background: #EB1B33;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.tintuc {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.tintuc .tille {
+  height: 40px;
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+  margin-top: -10px;
+  border-bottom: 3px solid #EB1B33;
+}
+
+.new {
+  width: 100%;
+}
+.new a {
+  width: 500px;
+  padding-right: 20px;
+}
+
+.tintuc .tille h3 {
+  height: 42px;
+  line-height: 40px;
+  padding-right: 10px;
+  background: url("../images/background-title.png") left top no-repeat;
+  background-size: 210px 50px;
+  color: white;
+  padding-left: 20px;
+  font-weight: 400;
+}
+
+.tintuc1 {
+  height: 300px;
+  width: 200px;
+  /* max-width: 300px; */
+  margin: auto;
+  margin-right: 10px;
+}
+
+.tintuc1 img {
+  /* width: 100%; */
+  height: 450px;
+  /* border: 1px solid #ececec; */
+}
+
+.tintuc1 h4 {
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.tintuc1 .dang {
+  width: 200px;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: -3px;
+}
+
+.tintuc1 hr {
+  width: 300px;
+  color: lightgray;
+}
+
+.tintuc1 p {
+  width: 300px;
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.thongso {
+  width: 400px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  
+   
+}
+
+.thongso p {
+  width: 30%;
+  font-size: 13px;
+  font-weight: 300;
+  
+}
+
+.thongso p i {
+  color: #EB1B33;
+}
+
+.thuonghieu {
+  margin-top: 30px;
+}
+
+.thuonghieu .tille {
+  height: 40px;
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+  margin-top: -10px;
+  border-bottom: 3px solid #EB1B33;
+}
+
+.thuonghieu .tille h3 {
+  height: 42px;
+  line-height: 40px;
+  padding-right: 10px;
+  background: url("../images/background-title.png") left top no-repeat;
+  background-size: 210px 50px;
+  color: white;
+  padding-left: 20px;
+  font-weight: 400;
+}
+
+.logothuonghieu {
+  max-width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.logothuonghieu img {
+  width: 50px;
+  height: 120px;
+  object-fit: cover;
+  box-shadow: 0 0 5px gray;
+}
+
+.bane {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.bane img {
+  width: 500px;
+  height: 200px;
+  object-fit: cover;
+  padding-left: 20px;
+}
+
+.vali {
+  margin-top: 50px;
+}
+
+.vali .tille {
+  height: 40px;
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+  margin-top: -10px;
+  border-bottom: 3px solid #EB1B33;
+}
+
+.vali .tille h3 {
+  height: 40px;
+  line-height: 40px;
+  padding-right: 10px;
+  background: url(../images/background-title.png) left top no-repeat;
+  background-size: 120px 50px;
+  color: white;
+  padding-left: 10px;
+  font-weight: 400
+}
+
+.cap {
+  margin-top: 50px;
+}
+
+.cap .tille {
+  height: 40px;
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+  margin-top: -10px;
+  border-bottom: 3px solid #EB1B33;
+}
+
+.cap .tille h3 {
+  height: 40px;
+  line-height: 40px;
+  padding-right: 10px;
+  background: url(../images/background-title.png) left top no-repeat;
+  background-size: 100px 51px;
+  color: white;
+  padding-left: 10px;
+  font-weight: 400
+} */
+
+/* reponsive */
+
+@media (max-width: 1327px) {
+  .reponsi_phone .phone #toggle i {
+    font-size: 35px;
+    padding-top: 5%;
+  }
+  .reponsi_phone .phone a {
+    text-align: right;
+    padding-right: 5%;
+  }
+  .reponsi_phone .phone .logo {
+    padding-right: 0;
+  }
+  .reponsi_phone .phone a img {
+    width: 275px;
+    height: auto;
+  }
+  .reponsi_phone .phone a i {
+    font-size: 35px;
+    line-height: 70px;
+  }
+  .reponsi_phone {
+    height: 70px;
+  }
+  .top {
+    display: none;
+  }
+  .bottom .phai ul {
+    display: none;
+  }
+  .header-top-main {
+    display: none;
+  }
+  .middle {
+    display: none;
+  }
+  .bottom {
+    display: none;
+  }
+  .reponsi_phone {
+    display: block;
+  }
+  .reponsi_phone nav {
+    width: 70%;
+  }
+  .middle_reponsive {
+    display: block;
+  }
+  .balo .tille h3 {
+    font-size: 15px;
+    background-size: 71px 50px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+  }
+  .balo .tille {
+    height: 28px;
+  }
+  .vali .tille h3 {
+    font-size: 15px;
+    background-size: 90px 50px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+  }
+  .vali .tille {
+    height: 28px;
+  }
+  .cap .tille h3 {
+    font-size: 15px;
+    background-size: 93px 50px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+  }
+  .cap .tille {
+    height: 28px;
+  }
+
+  .tintuc1 {
+    height: 300px;
+    max-width: 450px;
+    margin: auto;
+    margin-right: 10px;
+  }
+  .tintuc1 h4 {
+    width: 100%;
+    height: auto;
+  }
+
+  .thuonghieu .tille h3 {
+    font-size: 15px;
+    background-size: 130px 50px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+  }
+  .thuonghieu .tille {
+    height: 28px;
+  }
+  .sanpham h3 {
+    font-size: 15px;
+  }
+  .sanpham p {
+    font-size: 15px;
+  }
+  .banner {
+    width: 90%;
+    display: block;
+    padding-left: 0px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .banner img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .bane {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bane img {
+    height: auto;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .fotter {
+    flex-wrap: wrap;
+  }
+  .fot_tren {
+    height: 750px;
+  }
+  .fot_tren h2 {
+    width: 100vw;
+  }
+  .shop {
+    max-width: 100%;
+    padding-right: 0px;
+    text-align: center;
+    margin: 20px;
+  }
+  .shop h5 {
+    width: 90%;
+    margin: auto;
+  }
+  .call {
+    max-width: 100%;
+    text-align: center;
+    padding-right: 0px;
+    margin: 50px;
+  }
+  .chungnhan {
+    max-width: 100%;
+    height: 100px;
+    margin: 20px;
+  }
+  .thanhtoan {
+    flex-wrap: wrap;
+  }
+  .shop iframe {
+    width: 90%;
+  }
+  .thanhtoan .phone {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+  .thanhtoan .pay {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+  .thanhtoan .ketnoi {
+    max-width: 90%;
+  }
+
+  .logothuonghieu {
+    height: 150px;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  .fot_duoi p {
+    font-size: 15px;
+  }
+  .sanpham1 .buy {
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .reponsi_phone .phone #toggle i {
+    width: 50%;
+  }
+  .reponsi_phone .phone a img {
+    width: 180px;
+    height: 50px;
+  }
+  .reponsi_phone nav ul .repon_login a {
+    text-align: left;
+    border-right: 1px solid lightgray;
+    height: 100%;
+  }
+  .reponsi_phone nav ul .repon_login .dangnhap {
+    height: 40px;
+    width: 70px;
+    text-align: left;
+    line-height: 40px;
+    margin-top: -10px;
+    border-right: none;
+  }
+  .reponsi_phone nav ul .repon_login img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    top: -10px;
+    border-radius: 0;
+  }
+  .reponsi_phone .phone a i {
+    line-height: 50px;
+    font-size: 25px;
+  }
+  .top {
+    display: none;
+  }
+  .bottom .phai ul {
+    display: none;
+  }
+  .header-top-main {
+    display: none;
+  }
+  .middle {
+    display: none;
+  }
+  .bottom {
+    display: none;
+  }
+  .reponsi_phone {
+    display: block;
+    height: 50px;
+  }
+  .reponsi_phone nav {
+    width: 70%;
+  }
+  .middle_reponsive {
+    display: block;
+  }
+  .balo .tille h3 {
+    font-size: 15px;
+    background-size: 71px 50px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+  }
+  .balo .tille {
+    height: 28px;
+  }
+  .vali .tille h3 {
+    font-size: 15px;
+    background-size: 90px 50px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+  }
+  .vali .tille {
+    height: 28px;
+  }
+  .cap .tille h3 {
+    font-size: 15px;
+    background-size: 93px 50px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+  }
+  .cap .tille {
+    height: 28px;
+  }
+
+  .thuonghieu .tille h3 {
+    font-size: 15px;
+    background-size: 130px 50px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+  }
+  .thuonghieu .tille {
+    height: 28px;
+  }
+  .sanpham h3 {
+    font-size: 15px;
+  }
+  .sanpham p {
+    font-size: 15px;
+  }
+  .banner {
+    width: 90%;
+    display: block;
+    padding-left: 0px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .banner img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .bane {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bane img {
+    height: 114px;
+    width: 300px;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .fotter {
+    flex-wrap: wrap;
+  }
+  .fot_tren {
+    height: 750px;
+  }
+  .fot_tren h2 {
+    width: 100vw;
+  }
+  .shop {
+    max-width: 100%;
+    padding-right: 0px;
+    text-align: center;
+    margin: 20px;
+  }
+  .shop h5 {
+    width: 90%;
+    margin: auto;
+  }
+  .call {
+    max-width: 100%;
+    text-align: center;
+    padding-right: 0px;
+    margin: 50px;
+  }
+  .chungnhan {
+    max-width: 100%;
+    height: 100px;
+    margin: 20px;
+  }
+  .thanhtoan {
+    flex-wrap: wrap;
+  }
+  .shop iframe {
+    width: 90%;
+  }
+  .thanhtoan .phone {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+  .thanhtoan .pay {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+  .thanhtoan .ketnoi {
+    max-width: 90%;
+  }
+
+  .logothuonghieu {
+    height: 150px;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  .fot_duoi p {
+    font-size: 15px;
+  }
+}

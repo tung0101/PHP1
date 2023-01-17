@@ -1,0 +1,1388 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #ececec;
+}
+
+.container {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #afafaf;
+  background: #324148 !important;
+  color: white;
+  justify-content: center;
+}
+
+.top .header-top {
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-top .tille-top {
+  width: 200px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-left: 10px;
+  line-height: 40px;
+  animation: animationTitleNews 0.75s linear infinite;
+}
+
+@keyframes animationTitleNews {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: white;
+  }
+}
+
+marquee a {
+  color: white;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.main {
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.mainIn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-top-main {
+  width: 700px;
+  padding-left: 180px;
+}
+
+.header-top-main .hotline-header {
+  display: flex;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  height: 15px;
+  line-height: 40px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+.hotline-space {
+  border-left: 1px solid #484848;
+  border-right: 1px solid #979797;
+  display: inline-block;
+  height: 12px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: -1px;
+  width: 2px;
+}
+
+.middle {
+  display: flex;
+  background: #324148 !important;
+  height: 65px;
+  justify-content: center;
+}
+
+.middle .anh {
+  width: 60px;
+  height: 60px;
+}
+
+.middle .anh img {
+  margin-top: 3px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.middle form {
+  line-height: 50px;
+  padding-left: 100px;
+}
+
+.middle form input[type="text"] {
+  border: none;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  height: 35px;
+  padding: 0 10px;
+  width: 312px;
+  float: left;
+  margin-right: 3px;
+  margin-top: 7px;
+}
+
+.middle form input[type="submit"] {
+  background: #fd5a32;
+  height: 35px;
+  text-align: center;
+  width: 80px;
+  font-size: 13px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 32px;
+  text-decoration: none;
+  border-left: 1px solid #fd5a32;
+  border: none;
+  margin-top: 7px;
+}
+
+.middle i {
+  color: white;
+  font-size: 20px;
+  padding-left: 100px;
+  line-height: 50px;
+}
+
+.anhsp {
+  height: 100px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.middle .login {
+  display: flex;
+  margin-left: 10px;
+  line-height: 50px;
+  height: 50px;
+}
+
+.middle .login a {
+  margin-right: 10px;
+}
+
+.middle .login span {
+  border-left: 2px solid lightgrey;
+  padding-right: 10px;
+  height: 30px;
+  margin: auto;
+}
+
+.middle a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bottom {
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+.bottom .trai {
+  width: 22%;
+  height: 40px;
+  position: relative;
+  text-align: right;
+  line-height: 50px;
+}
+
+.bottom .trai span {
+  padding: 10px;
+  background: tomato;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+}
+
+.bottom .trai ul {
+  position: absolute;
+  width: 230px;
+  margin-top: -3px;
+  background: #f5f5f5;
+  margin-left: 98px;
+  border: 1px solid #e5e5e5;
+  z-index: 30;
+  min-height: 350px;
+  display: block;
+}
+
+.bottom .trai ul li {
+  list-style: none;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+  padding-left: 10px;
+}
+
+.bottom .trai ul li:hover {
+  background: tomato;
+  border-left: 3px solid black;
+  transition: 0.5s ease;
+}
+
+.bottom .trai ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom .phai {
+  width: 78%;
+}
+
+.bottom .phai ul {
+  display: flex;
+}
+
+.bottom .phai ul li {
+  margin-left: 50px;
+  list-style: none;
+}
+
+.giamgia {
+  background: tomato;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.bottom .phai ul li:hover {
+  background: tomato;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: 0.5s ease;
+}
+
+.bottom .phai ul li a:hover {
+  color: white;
+}
+
+.bottom .phai ul li a {
+  text-decoration: none;
+  color: black;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.banner {
+ /* margin-right: 2rem; */
+  display: block;
+  padding-left: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.banner img {
+  /* margin-left: 40px; */
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  margin-right: 20px;
+  padding-right: 45px;
+}
+
+.fot_tren {
+  width: 100%;
+  background: #464444;
+  color: white;
+  height: 400px;
+}
+
+.fot_tren h2 {
+  margin: auto;
+  width: 500px;
+  padding-top: 20px;
+  border-bottom: 2px solid #EB1B33;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.fotter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.chungnhan1 {
+  display: flex;
+  width: 120px;
+  height: 35px;
+}
+
+.chungnhan1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.shop {
+  max-width: 25%;
+  padding-right: 100px;
+}
+
+.shop iframe {
+  width: 90%;
+  height: 200px;
+}
+
+.call {
+  max-width: 25%;
+  padding-right: 100px;
+}
+
+.chungnhan {
+  max-width: 25%;
+}
+
+.fot_duoi {
+  width: 100%;
+  color: black;
+  height: 200px;
+  text-align: center;
+}
+
+.thanhtoan {
+  display: flex;
+  color: black;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #EB1B33;
+  padding-bottom: 30px;
+}
+
+.thanhtoan .phone {
+  max-width: 25%;
+  margin: auto;
+}
+
+.thanhtoan .phone h4 {
+  text-align: center;
+}
+
+.thanhtoan .phone button {
+  width: 100px;
+  height: 30px;
+  background: #EB1B33;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.pay {
+  max-width: 25%;
+  margin: auto;
+}
+
+.pay h4 {
+  text-align: center;
+}
+
+.bank {
+  margin-top: 10px;
+}
+
+.bank img {
+  margin-left: 10px;
+}
+
+.ketnoi {
+  max-width: 25%;
+  margin: auto;
+}
+
+.conn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.conn a {
+  text-decoration: none;
+}
+
+.conn a i {
+  font-size: 40px;
+}
+
+.phone h4 {
+  color: black;
+}
+
+.fot_duoi p {
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 30px;
+}
+
+.reponsi_phone {
+  display: none;
+  background: #324148 !important;
+  width: 100vw;
+  height: 50px;
+}
+
+.reponsi_phone .phone {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.reponsi_phone .phone a img {
+  width: 180px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reponsi_phone .phone a {
+  text-decoration: none;
+  width: 20%;
+  height: 50px;
+  cursor: pointer;
+  color: black;
+}
+
+.reponsi_phone .phone .logo {
+  width: 60%;
+}
+
+.reponsi_phone .phone #toggle {
+  width: 20%;
+}
+
+.reponsi_phone .phone #toggle i {
+  color: white;
+  line-height: 50px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.reponsi_phone .phone a i {
+  color: white;
+  line-height: 50px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.reponsi_phone nav {
+  position: fixed;
+  z-index: 999;
+  height: 500px;
+  background: #f3f3f3;
+  left: 0;
+  transform: translateX(-180%);
+  transition: 0.5s ease;
+}
+
+.reponsi_phone .hide {
+  transform: translateX(0%);
+  box-shadow: 0 0 5px gray;
+}
+
+.reponsi_phone nav ul .menu_title {
+  color: black;
+  background: orange;
+  color: white;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.reponsi_phone nav ul .menu_title .close {
+  right: 0;
+  width: 20px;
+  position: absolute;
+  height: 20px;
+  padding: 6px;
+  top: 0;
+}
+
+.reponsi_phone nav ul .menu_title .close i {
+  font-size: 25px;
+}
+
+.reponsi_phone nav ul .repon_login {
+  display: flex;
+  height: 40px;
+}
+
+.reponsi_phone nav ul .repon_login img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.reponsi_phone nav ul .repon_login a {
+  width: 50%;
+  height: 30px;
+
+  text-align: left;
+  line-height: 30px;
+}
+
+.reponsi_phone nav ul .repon_login a i {
+  color: black;
+  font-size: 15px;
+}
+
+.reponsi_phone nav ul li {
+  list-style: none;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.middle_reponsive {
+  background: #324148 !important;
+  width: 100vw;
+  height: 50px;
+  display: none;
+}
+
+.middle_reponsive form {
+  width: 100%;
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.middle_reponsive form input {
+  width: 60%;
+  height: 25px;
+  padding-left: 10px;
+}
+
+.middle_reponsive form input[type="submit"] {
+  width: 15%;
+  height: 28px;
+  background: #fd5a32;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  border-left: 1px solid #fd5a32;
+  border: none;
+  padding-left: 0px;
+}
+
+/* sản phẩm */
+
+.product {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding:0 50px 0 50px;
+  /* margin-left: 20rem; */
+}
+
+.product .ten {
+  display: flex;
+  padding: 0 0px 10 50px;
+}
+
+.product .ten i {
+  padding: 5px;
+  color: gray;
+}
+
+nav {
+  margin-right: 2rem;
+  height: 500px;
+}
+
+
+.sanpham {
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* row-gap: 20px; */
+  margin: auto;
+  margin-top: 30px;
+  justify-content: space-between;
+  margin-left: 5.5rem;
+  /* height: auto; */
+  /* margin-right: -3rem;; */
+ 
+}
+
+ 
+
+.sanpham1 {
+  width: 300px;
+  height: 500px;
+  margin-bottom: 2rem;
+}
+
+.sanpham1 img {
+  width: 200px;
+  height: 350px;
+  object-fit: cover;
+  /* border: 1px solid #ececec; */
+  transition: 0.5s ease;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-height: 454px; */
+  cursor: pointer;
+}
+
+.sanpham1:hover img {
+  transform: scale(0.8);
+  cursor: pointer;
+
+}
+
+.sanpham1 p {
+  color: red;
+  font-weight: 400;
+  height: 40px;
+  /* line-height: 50px; */
+  margin-left: 36px;
+}
+
+.sanpham1 .buy {
+  display: flex;
+  /* margin-top: 10px; */
+  flex-wrap: wrap;
+  padding: 0 30px 0 30px;
+  justify-content: space-between;
+  width: 100%;
+  /* margin:  */
+}
+
+.content {
+  margin-bottom: 0px;
+  padding: auto;
+  margin-top: 10px;
+}
+
+.content h3 {
+  font-weight: 500;
+  margin-left: 2rem;
+  font-size: medium;
+  cursor: pointer;
+  height: 60px;
+    width: 70%;
+    font-size: 15px;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+}
+
+
+
+.sanpham1 .buy button {
+  width: 40%;
+  height: 30px;
+  color: white;
+  background: #37a7e5;
+  border: none;
+  border-radius: 5px;
+  /* margin-bottom: 5px; */
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.sanpham1 .buy button a {
+  text-decoration: none;
+  color: white;
+}
+
+.sanpham1 .buy input {
+  width: 40%;
+  height: 30px;
+  color: white;
+  background: #EB1B33;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+}
+
+
+
+/* reponsive */
+
+@media (max-width: 1327px) {
+  .reponsi_phone .phone #toggle i {
+    font-size: 35px;
+    padding-top: 5%;
+  }
+
+  .reponsi_phone .phone a {
+    text-align: right;
+    padding-right: 5%;
+  }
+
+  .reponsi_phone .phone .logo {
+    padding-right: 0;
+  }
+
+  .reponsi_phone .phone a img {
+    width: 275px;
+    height: auto;
+  }
+
+  .reponsi_phone .phone a i {
+    font-size: 35px;
+    line-height: 70px;
+  }
+
+  .reponsi_phone {
+    height: 70px;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .bottom .phai ul {
+    display: none;
+  }
+
+  .header-top-main {
+    display: none;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  .reponsi_phone {
+    display: block;
+  }
+
+  .reponsi_phone nav {
+    width: 70%;
+  }
+
+  .middle_reponsive {
+    display: block;
+  }
+
+  .fotter {
+    flex-wrap: wrap;
+  }
+
+  .fot_tren {
+    height: 750px;
+  }
+
+  .fot_tren h2 {
+    width: 100vw;
+  }
+
+  .shop {
+    max-width: 100%;
+    padding-right: 0px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .shop h5 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .call {
+    max-width: 100%;
+    text-align: center;
+    padding-right: 0px;
+    margin: 50px;
+  }
+
+  .banner {
+    width: 100%;
+    display: block;
+    padding-left: 0px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .chungnhan {
+    max-width: 100%;
+    height: 100px;
+    margin: 20px;
+  }
+
+  .thanhtoan {
+    flex-wrap: wrap;
+  }
+
+  .shop iframe {
+    width: 90%;
+  }
+
+  .thanhtoan .phone {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .pay {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .ketnoi {
+    max-width: 90%;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .fot_duoi p {
+    font-size: 15px;
+  }
+
+  .sanpham {
+    width: 95%;
+  }
+
+  .sanpham1 {
+    margin-bottom: 10%;
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .sanpham1 h3 {
+    font-size: 25px;
+    height: 100px;
+  }
+
+  .sanpham1 p {
+    font-size: 25px;
+    height: 50px;
+  }
+
+  .sanpham1 img {
+    height: 100%;
+  }
+
+  .sanpham1 .buy button {
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .sanpham1 .buy input {
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 985px) {
+  .top {
+    display: none;
+  }
+
+  .bottom .phai ul {
+    display: none;
+  }
+
+  .header-top-main {
+    display: none;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  .reponsi_phone {
+    display: block;
+  }
+
+  .reponsi_phone nav {
+    width: 70%;
+  }
+
+  .middle_reponsive {
+    display: block;
+  }
+
+  .fotter {
+    flex-wrap: wrap;
+  }
+
+  .fot_tren {
+    height: 750px;
+  }
+
+  .fot_tren h2 {
+    width: 100vw;
+  }
+
+  .shop {
+    max-width: 100%;
+    padding-right: 0px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .shop h5 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .call {
+    max-width: 100%;
+    text-align: center;
+    padding-right: 0px;
+    margin: 50px;
+  }
+
+  .banner {
+    width: 90%;
+    display: block;
+    padding-left: 0px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .chungnhan {
+    max-width: 100%;
+    height: 100px;
+    margin: 20px;
+  }
+
+  .thanhtoan {
+    flex-wrap: wrap;
+  }
+
+  .shop iframe {
+    width: 90%;
+  }
+
+  .thanhtoan .phone {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .pay {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .ketnoi {
+    max-width: 90%;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .fot_duoi p {
+    font-size: 15px;
+  }
+
+  .sanpham {
+    width: 95%;
+  }
+
+  .sanpham1 {
+    margin-bottom: 10%;
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .sanpham1 h3 {
+    font-size: 20px;
+    height: 100px;
+  }
+
+  .sanpham1 p {
+    font-size: 20px;
+    height: 50px;
+  }
+
+  .sanpham1 img {
+    width: 100%;
+  }
+
+  .sanpham1 .buy button {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .sanpham1 .buy input {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .top {
+    display: none;
+  }
+
+  .bottom .phai ul {
+    display: none;
+  }
+
+  .header-top-main {
+    display: none;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  .reponsi_phone {
+    display: block;
+  }
+
+  .reponsi_phone nav {
+    width: 70%;
+  }
+
+  .middle_reponsive {
+    display: block;
+  }
+
+  .reponsi_phone .phone a img {
+    width: 180px;
+    height: 50px;
+  }
+
+  .reponsi_phone nav ul .repon_login a {
+    text-align: right;
+  }
+
+  .reponsi_phone nav ul .repon_login .dangnhap {
+    height: 40px;
+    width: 70px;
+    text-align: left;
+    line-height: 40px;
+    margin-top: -10px;
+  }
+
+  .fotter {
+    flex-wrap: wrap;
+  }
+
+  .fot_tren {
+    height: 750px;
+  }
+
+  .fot_tren h2 {
+    width: 100vw;
+  }
+
+  .shop {
+    max-width: 100%;
+    padding-right: 0px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .shop h5 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .call {
+    max-width: 100%;
+    text-align: center;
+    padding-right: 0px;
+    margin: 50px;
+  }
+
+  .banner {
+    width: 90%;
+    display: block;
+    padding-left: 0px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .chungnhan {
+    max-width: 100%;
+    height: 100px;
+    margin: 20px;
+  }
+
+  .thanhtoan {
+    flex-wrap: wrap;
+  }
+
+  .shop iframe {
+    width: 90%;
+  }
+
+  .thanhtoan .phone {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .pay {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .ketnoi {
+    max-width: 90%;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .fot_duoi p {
+    font-size: 15px;
+  }
+
+  .reponsi_phone .phone a img {
+    width: 200px;
+    height: auto;
+  }
+
+  .sanpham {
+    width: 95%;
+  }
+
+  .sanpham1 {
+    margin-bottom: 10%;
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .sanpham1 h3 {
+    font-size: 13px;
+    height: auto;
+    width: 100%;
+  }
+
+  .sanpham1 p {
+    font-size: 13px;
+
+    width: 100%;
+  }
+
+  .sanpham1 img {
+    width: 100%;
+  }
+
+  .sanpham1 .buy button {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+  }
+  .check-out {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0;
+    }
+    
+    .check-out .info {
+        width: 100%;
+    }
+    
+    .check-out .info form {
+        width: auto;
+    }
+    
+    .check-out .info form a {
+        color: #000;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    
+    .check-out .total {
+        width: 100%;
+    }
+
+    .check-out-item > p {
+        display: none;
+    }
+
+    .check-out-item img{
+        max-height: 80px;
+        object-fit: cover;
+ 
+    }
+
+  .sanpham1 .buy input {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .reponsi_phone nav ul .repon_login a {
+    text-align: left;
+    border-right: 1px solid lightgray;
+    height: 100%;
+  }
+
+  .reponsi_phone nav ul .repon_login .dangnhap {
+    height: 40px;
+    width: 70px;
+    text-align: left;
+    line-height: 40px;
+    margin-top: -10px;
+    border-right: none;
+  }
+
+  .reponsi_phone nav ul .repon_login img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    top: -10px;
+    border-radius: 0;
+  }
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+  text-decoration: none
+  
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #676a81;
+  background: #ececec;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+
+  /* font-family: 'Poppins', sans-serif; */
+
+
+/* .header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  background: #fff;
+  padding: 0 30px;
+
+}
+
+/* .serch-box */
+.search-box {
+  display: none;
+}
+
+.search-box .form-group input[type="text"] {
+  width: 100%;
+  padding: 25px;
+  background: #ddd;
+  border: 0;
+  color: #eb1b33;
+  font-size: 24px;
+}
+
+/* .logo */
+.logo {
+  text-transform: capitalize;
+  color: #eb1b33;
+}
+
+/* .header-menu */
+.responsive-menu {
+  display: none;
+  color: #eb1b33;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header-menu ul li a, .head-social-link ul li a {
+  display: block;
+  padding: 0 15px;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(77, 73, 73);
+  transition: .5s all;
+}
+
+.head-social-link ul li a {
+  font-size: 15px;
+  padding: 0 5px;
+  color: #676a81;
+}
+btn-16
+
+.header-menu ul li a:hover, .header-menu ul li a.menu-active {
+  color: #eb1b33;
+  margin-left: 2rem;
+}
+
+.head-social-link ul li a:hover {
+  color: #0b021b;
+}
+
+.responsive-sub-menu {
+  margin: 0 auto;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+}

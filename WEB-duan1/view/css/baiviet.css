@@ -1,0 +1,30 @@
+.ten {
+  display: flex;
+  width: 200px;
+  margin-left: 7%;
+  margin-top: 20px;
+}
+
+.ten i {
+  padding: 5px;
+  color: gray;
+}
+.chitiet h2 {
+  font-size: 2rem;
+}
+.chitiet h3 {
+  text-align: center;
+  font-size: 25px;
+}
+.chitiet img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 10px;
+  transition: ease 0.3s;
+  margin: auto;
+}
+.chitiet {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

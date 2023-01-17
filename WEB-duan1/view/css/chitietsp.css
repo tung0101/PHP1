@@ -1,0 +1,338 @@
+.ten {
+  display: flex;
+  width: 200px;
+  margin-left: 122px;
+  margin-top: 20px;
+}
+
+.ten i {
+  padding: 5px;
+  color: gray;
+}
+.chitiet h2 {
+  font-size: 2rem;
+}
+.chitiet h3 {
+  text-align: center;
+  font-size: 25px;
+}
+.chitiet img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 10px;
+  transition: ease 0.3s;
+  margin: auto;
+}
+.chitiet img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.chitiet {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bottom .trai ul {
+  display: none;
+}
+.chitiet {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.chitiet_trai {
+  width: 50%;
+  display: flex;
+}
+.chitiet_trai img {
+  width: 40%;
+  object-fit: cover;
+  margin-top: 10px;
+  height: 503px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 5px gray;
+  margin-bottom: 15px;
+}
+.chitiet_trai .slideshow {
+  display: block;
+  width: 20%;
+  margin-left: 115px;
+  /* justify-content: center; */
+   flex-direction: column;
+}
+.chitiet_trai .slideshow img {
+  height: auto;
+  width: 70%;
+  box-shadow: 0 0 5px gray;
+  margin: 10px;
+}
+.chitiet_phai {
+  width: 50%;
+}
+.chitiet_phai h3 {
+  font-weight: 400;
+  text-align: left;
+  font-size: 3rem;
+  width: 80%;
+}
+.chitiet_phai hr {
+  width: 80%;
+}
+.chitiet_phai .giasp {
+  width: 80%;
+  height: 50px;
+  margin: 10px;
+  background: rgb(236, 233, 233);
+}
+.chitiet_phai .giasp span {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bolder;
+  color: red;
+  padding-left: 5%;
+  margin-top: 2rem;
+}
+.buy {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  width: 70%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  /* background-color: #EB1B33; */
+}
+
+
+
+.chitiet_phai p {
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.chitiet_phai p {
+  width: 650px;
+  margin-bottom: 0.5rem;
+}
+
+.chitiet_phai h4 span {
+  color: red;
+}
+
+.buy button {
+  width: 40%;
+  height: 40px;
+  color: white;
+  background: #37a7e5;
+  border: none;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  font-size: 18px;
+}
+.buy button a {
+  text-decoration: none;
+  color: white;
+}
+.buy input .chat{
+  width: 123px;
+
+}
+
+
+.buy input {
+  width: 30%;
+  height: 40px;
+  color: white;
+  background: #EB1B33;
+  margin-right: 3rem;
+  border: none;
+  /* margin-left: 5px; */
+  font-size: 18px;
+  border-radius: 5px;
+}
+.binhluan {
+  width: 90%;
+  margin: auto;
+}
+.binhluan h3 {
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  background: #EB1B33;
+  color: white;
+  margin: auto;
+}
+.binhluan iframe {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.binhluan form .user input {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.binhluan form textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+.binhluan form {
+  text-align: right;
+}
+.binhluan form h4 {
+  text-align: left;
+  font-size: 20px;
+}
+.binhluan form input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: auto;
+  background: orangered;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.user {
+  display: flex;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.thongtinbl {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.thongtinbl .bl_name {
+  font-weight: bold;
+  font-size: 18px;
+}
+.showbinhluan {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 985px) {
+  .chitiet {
+    font-size: 15px;
+  }
+  .chitiet_trai {
+    width: 100%;
+  }
+  .chitiet_trai img {
+    height: auto;
+  }
+  .chitiet_trai .slideshow img {
+    height: auto;
+  }
+  .chitiet_phai {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+  }
+  .chitiet_phai h3 {
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+  }
+  .chitiet_phai hr {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .chitiet_phai .giasp {
+    margin: auto;
+  }
+  .buy {
+    width: 80%;
+    margin: auto;
+  }
+  .buy button {
+    width: 100%;
+    font-size: 15px;
+  }
+  .buy input {
+    width: 100%;
+    font-size: 15px;
+  }
+  .chitiet_phai p {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .chitiet {
+    font-size: 15px;
+  }
+  .chitiet_trai {
+    width: 100%;
+  }
+  .chitiet_trai img {
+    height: auto;
+  }
+  .chitiet_trai .slideshow img {
+    width: 18%;
+    height: auto;
+  }
+  .chitiet_phai {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+  }
+  .chitiet_phai h3 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .chitiet_phai hr {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .chitiet_phai .giasp {
+    margin: auto;
+  }
+  .buy {
+    width: 80%;
+    margin: auto;
+  }
+  .buy button {
+    width: 100%;
+    font-size: 15px;
+  }
+  .buy input {
+    width: 100%;
+    font-size: 15px;
+  }
+  .chitiet_phai p {
+    width: 80%;
+    margin: auto;
+  }
+}

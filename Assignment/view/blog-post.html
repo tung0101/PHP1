@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/responsive.css" />
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../src/css/owl.carousel.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href = "../index.php" class = "navbar-brand">
+                    <img src = "../src/img/index/logo-png.png" alt = "logo">
+                    <h2>Soul Burger</h2>
+                  </a>
+            </div>
+            <img class="list-icon" src="../src/img/index/list-icon.png" alt="">
+            <div class="header-item">
+                <div class="header-item-box">
+                    <img src="../src/img/index/close-icon.png" alt="" class="close-icon">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="../index.php">Trang chủ</a></li>
+                            <li><a href="../view/About.html">Giới thiệu</a></li>
+                            <li><a href="../view/product.html">Thực đơn</a></li>
+                            <li><a href="../view/blog.html">Tin tức</a></li>
+                            <li><a href="../view/Contact.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="authenticate">
+                        <a href="../cart.html"><img src="./src/img/index/cart.png" alt=""></a>
+                        <a href="../controller/login.php" class="button" id="signin-btn">Đăng nhập</a>
+                        <a href="../view/signup.html" class="button" id="signup-btn">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="post-wrapper">
+                <div class="post"></div>
+                <div class="related-posts">
+                    <h3 class="title">You May Like These Posts</h3>
+                    <div class="related list-view"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="logo">
+              <a href="index.html" class="navbar-brand">
+                <img src="./src/img/index/logo-png.png" alt="logo" />
+                <h2>Soul Burger</h2>
+              </a>
+            </div>
+            <div class="menu">
+              <ul>
+                <li><a href="./index.html">Trang chủ</a></li>
+                <li><a href="./About.html">Giới thiệu</a></li>
+                <li><a href="./product.html">Thực đơn</a></li>
+                <li><a href="./blog.html">Tin tức</a></li>
+                <li><a href="./Contact.html">Liên hệ</a></li>
+              </ul>
+            </div>
+          </footer>
+    </div>
+    <script src="./src/js/main.js"></script>
+    <script>
+        handleMenu();
+        renderPost('.post');
+        switchViewRelatedPosts('.related');
+        renderBlogPosts('.related', ListBlogPosts, 3);
+        window.onresize = () => {
+            switchViewRelatedPosts('.related');
+        }
+    </script>
+</body>
+
+</html>

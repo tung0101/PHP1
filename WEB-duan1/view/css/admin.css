@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif !important; 
+
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+.chon {
+  width: 100px;
+}
+
+ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 40px;
+  color: black;
+}
+
+ul h3 {
+  color: orange;
+  line-height: 40px;
+  padding-left: 20px;
+}
+.loi {
+  color: red;
+}
+
+.tren {
+  width: 100%;
+  display: flex;
+  background: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.tren h2 {
+  width: 30%;
+  margin-left: 20px;
+  line-height: 50px;
+  color: #324148;
+  font-weight: bold;
+}
+
+.tren nav {
+  width: 30%;
+  text-align: right;
+}
+
+.tren nav ul {
+  display: flex;
+  justify-content: right;
+  right: 0;
+}
+
+.tren nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+.tren .logo {
+  width: 40%;
+  text-align: center;
+}
+.tren .logo img {
+  height: 30px;
+  text-align: center;
+  margin: auto;
+  object-fit: cover;
+}
+.tren nav ul li a {
+  text-decoration: none;
+  color: #324148;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.tren nav ul li a i {
+  color:#324148;
+}
+
+.duoi {
+  background: white !important;
+  color: #324148;
+  height: 50px;
+  display: flex;
+}
+.duoi ul {
+  display: flex;
+  height: 40px;
+  width: 80%;
+  line-height: 50px;
+}
+
+.duoi ul li {
+  list-style: none;
+  width: 10%;
+  text-align: center;
+}
+
+.duoi h3 {
+  width: 20%;
+  line-height: 50px;
+  text-align: center;
+  color: #324148;
+}
+
+.duoi ul li a {
+  text-decoration: none;
+  color: #324148;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+main {
+  margin-top: 100px;
+  margin-left: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  margin: auto;
+}
+
+main h2 {
+  padding-left: 10px;
+  background: orange;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+}
+
+main table {
+  margin: auto;
+  background: #f9f9f9;
+}
+
+main th {
+  border: 1px solid gray;
+  height: 50px;
+  text-align: center;
+  background: greenyellow;
+}
+
+main td {
+  border: 1px solid gray;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}
+
+main img {
+  height: 100px;
+  object-fit: cover;
+}
+
+main .ad {
+  background: red;
+  line-height: 30px;
+  height: 30px;
+  width: 80px;
+}
+
+main .ad i {
+  font-size: 20px;
+}
+main .ac {
+  background: green;
+  line-height: 30px;
+  height: 30px;
+  width: 80px;
+}
+
+main .ac i {
+  font-size: 20px;
+}
+
+main .them {
+  width: 100px;
+  background: blue;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+main a {
+  text-decoration: none;
+  color: white;
+}
+
+main .an {
+  border: none;
+}
+
+main .a {
+  border: none;
+  height: 20px;
+}
+main tr td img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+ul.sub_menu {
+  display: none;
+  width: 200px;
+  background: white;
+}
+
+.sub_menu li {
+  background: orange;
+  border-bottom: 1px solid white;
+  padding-left: 10px;
+}
+
+.sub_menu li a {
+  color: white;
+}
+
+.chuyentrang {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.page a {
+  color: black;
+  text-decoration: none;
+  line-height: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.trang {
+  width: 50px;
+  height: 30px;
+  box-shadow: 0 0 5px black;
+  margin-left: 10px;
+  text-align: center;
+  background: orange;
+  cursor: pointer;
+}
+
+.page {
+  display: flex;
+  margin: auto;
+}
+.seach input {
+  width: 400px;
+  height: 40px;
+  border: solid 1px #d6e4e3;
+  border-right: none !important;
+  font-size: 15px;
+  background: rgb(216, 210, 210);
+  padding-left: 10px;
+}
+.main form {
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.main form input {
+  width: 70%;
+  height: 40px;
+  padding-left: 10px;
+  background: rgb(246, 243, 243);
+  border: 2px solid lightgray;
+}
+.main form input[type="submit"] {
+  width: 15%;
+  height: 43px;
+  border: none;
+  background: orange;
+  color: white;
+  font-weight: bold;
+}
+.tensp {
+  width: 200px;
+  padding: 5px;
+}
+.ketqua {
+  padding-left: 10%;
+}
+.userlogin {
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 5px #212529;
+  padding-bottom: 20px;
+}
+.userlogin h2 {
+  background: #324148 !important;
+  height: 50px;
+  color: white;
+}
+.userlogin h2 span {
+  color: yellow;
+}
+.bangad {
+  margin: auto;
+  width: 100%;
+  font-size: 18px;
+}
+
+.bangad td input {
+  border: none;
+  width: 90%;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Quicksand';
+}
+.bangad th {
+  width: 250px;
+  font-family: 'Quicksand';
+}
+.bangad{
+
+ font-family: 'Quicksand';
+}
+
+input {
+  font-family: 'Quicksand';
+}
+
+.bangad .sub {
+  background: #37a7e5;
+  width: 90%;
+  margin: auto;
+  color: white;
+  border: none;
+  font-family: 'Quicksand';
+ 
+}

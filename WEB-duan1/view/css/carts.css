@@ -1,0 +1,1078 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #afafaf;
+  background: #324148 !important;
+  color: white;
+  justify-content: center;
+}
+
+.top .header-top {
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-top .tille-top {
+  width: 200px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-left: 10px;
+  line-height: 40px;
+  animation: animationTitleNews 0.75s linear infinite;
+}
+
+/* @keyframes animationTitleNews {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: tomato;
+  }
+} */
+
+marquee a {
+  color: white;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.header-top-main {
+  width: 700px;
+  padding-left: 180px;
+}
+
+.header-top-main .hotline-header {
+  display: flex;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  height: 15px;
+  line-height: 40px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+.hotline-space {
+  border-left: 1px solid #484848;
+  border-right: 1px solid #979797;
+  display: inline-block;
+  height: 12px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: -1px;
+  width: 2px;
+}
+
+.middle {
+  display: flex;
+  background: #324148 !important;
+  height: 50px;
+  justify-content: center;
+}
+
+.middle .anh {
+  width: 60px;
+  height: 60px;
+}
+
+.middle .anh img {
+  margin-top: 3px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.middle form {
+  line-height: 50px;
+  padding-left: 100px;
+}
+
+.middle form input[type="text"] {
+  border: none;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  height: 35px;
+  padding: 0 10px;
+  width: 312px;
+  float: left;
+  margin-right: 3px;
+  margin-top: 7px;
+}
+
+.middle form input[type="submit"] {
+  background: #EB1B33;
+  height: 35px;
+  text-align: center;
+  width: 80px;
+  font-size: 13px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 32px;
+  text-decoration: none;
+  border-left: 1px solid #EB1B33;
+  border: none;
+  margin-top: 7px;
+}
+
+.middle i {
+  color: white;
+  font-size: 20px;
+  padding-left: 100px;
+  line-height: 50px;
+}
+
+.anhsp {
+  height: 100px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.middle .login {
+  display: flex;
+  margin-left: 10px;
+  line-height: 50px;
+  height: 50px;
+}
+
+.middle .login a {
+  margin-right: 10px;
+}
+
+.middle .login span {
+  border-left: 2px solid lightgrey;
+  padding-right: 10px;
+  height: 30px;
+  margin: auto;
+}
+
+.middle a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bottom {
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+.bottom .trai {
+  width: 22%;
+  height: 50px;
+  position: relative;
+  text-align: right;
+  line-height: 50px;
+}
+
+.bottom .trai span {
+  padding: 10px;
+  background: tomato;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+}
+
+.bottom .trai ul {
+  position: absolute;
+  width: 238px;
+  margin-top: -3px;
+  background: #f5f5f5;
+  margin-left: 98px;
+  border: 1px solid #e5e5e5;
+  z-index: 30;
+  min-height: 450px;
+  display: none;
+}
+
+.bottom .trai ul li {
+  list-style: none;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+  padding-left: 10px;
+}
+
+.bottom .trai ul li:hover {
+  background: tomato;
+  border-left: 3px solid black;
+  transition: 0.5s ease;
+}
+
+.bottom .trai ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom .phai {
+  width: 78%;
+}
+
+.bottom .phai ul {
+  display: flex;
+}
+
+.bottom .phai ul li {
+  display: block;
+  margin-left: 50px;
+  list-style: none;
+}
+
+.giamgia {
+  background: tomato;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.bottom .phai ul li:hover {
+  background: tomato;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: 0.5s ease;
+}
+
+.bottom .phai ul li a:hover {
+  color: white;
+}
+
+.bottom .phai ul li a {
+  text-decoration: none;
+  color: black;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.banner {
+  /* display: none; */
+}
+
+.banner img {
+  height: 450px;
+  display: block;
+  /* padding-left: 240px; */
+  margin: auto;
+  /* display: none; */
+}
+
+.fot_tren {
+  width: 100%;
+  background: #464444;
+  color: white;
+  height: 400px;
+}
+
+.fot_tren h2 {
+  margin: auto;
+  width: 500px;
+  padding-top: 20px;
+  border-bottom: 2px solid tomato;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.fotter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.chungnhan1 {
+  display: flex;
+  width: 120px;
+  height: 35px;
+}
+
+.chungnhan1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.shop {
+  max-width: 25%;
+  padding-right: 100px;
+}
+
+.shop iframe {
+  width: 350px;
+  height: 200px;
+}
+
+.call {
+  max-width: 25%;
+  padding-right: 100px;
+}
+
+.chungnhan {
+  max-width: 25%;
+}
+
+.fot_duoi {
+  width: 100%;
+  color: black;
+  height: 200px;
+  text-align: center;
+}
+
+.thanhtoan {
+  display: flex;
+  color: black;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  border-bottom: 1px solid tomato;
+  padding-bottom: 30px;
+}
+
+.thanhtoan .phone {
+  max-width: 25%;
+  margin: auto;
+}
+
+.thanhtoan .phone h4 {
+  text-align: center;
+}
+
+.thanhtoan .phone button {
+  width: 100px;
+  height: 30px;
+  background: orangered;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.pay {
+  max-width: 25%;
+  margin: auto;
+}
+
+.pay h4 {
+  text-align: center;
+}
+
+.bank {
+  margin-top: 10px;
+}
+
+.bank img {
+  margin-left: 10px;
+}
+
+.ketnoi {
+  max-width: 25%;
+  margin: auto;
+}
+
+.conn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.conn a {
+  text-decoration: none;
+}
+
+.conn a i {
+  font-size: 40px;
+}
+
+.phone h4 {
+  color: black;
+}
+
+.fot_duoi p {
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 30px;
+}
+
+.reponsi_phone {
+  display: none;
+  background: #324148 !important;
+  width: 100vw;
+  height: 50px;
+}
+
+.reponsi_phone .phone {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.reponsi_phone .phone a img {
+  width: 180px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reponsi_phone .phone a {
+  text-decoration: none;
+  width: 20%;
+  height: 50px;
+  color: black;
+  cursor: pointer;
+}
+
+.reponsi_phone .phone .logo {
+  width: 60%;
+}
+
+.reponsi_phone .phone #toggle {
+  width: 20%;
+}
+
+.reponsi_phone .phone #toggle i {
+  color: white;
+  line-height: 50px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.reponsi_phone .phone a i {
+  color: white;
+  line-height: 50px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.reponsi_phone nav {
+  position: fixed;
+  z-index: 999;
+  height: 500px;
+  background: #f3f3f3;
+  left: 0;
+  transform: translateX(-180%);
+  transition: 0.5s ease;
+}
+
+.reponsi_phone .hide {
+  transform: translateX(0%);
+  box-shadow: 0 0 5px gray;
+}
+
+.reponsi_phone nav ul .menu_title {
+  color: black;
+  background: orange;
+  color: white;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.reponsi_phone nav ul .menu_title .close {
+  right: 0;
+  width: 20px;
+  position: absolute;
+  height: 20px;
+  padding: 6px;
+  top: 0;
+}
+
+.reponsi_phone nav ul .menu_title .close i {
+  font-size: 25px;
+}
+
+.reponsi_phone nav ul li {
+  list-style: none;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.reponsi_phone nav ul .repon_login {
+  display: flex;
+  height: 30px;
+}
+
+.reponsi_phone nav ul .repon_login a {
+  width: 50%;
+  height: 30px;
+  margin-top: -20px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.reponsi_phone nav ul .repon_login a i {
+  color: black;
+  font-size: 15px;
+}
+
+.middle_reponsive {
+  background: #324148 !important;
+  width: 100vw;
+  height: 50px;
+  display: none;
+}
+
+.middle_reponsive form {
+  width: 100%;
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.middle_reponsive form input {
+  width: 60%;
+  height: 25px;
+  padding-left: 10px;
+}
+
+.middle_reponsive form input[type="submit"] {
+  width: 15%;
+  height: 28px;
+  background: #fd5a32;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  border-left: 1px solid #EB1B33;
+  border: none;
+  padding-left: 0px;
+}
+
+/*Đăng nhâp*/
+.main {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.main h2 {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+table {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+table .nen {
+  background: #F64A0F;
+  color: white;
+}
+
+table .nen th {
+  /* padding-left: 20px; */
+  width: 200px;
+  text-align: center;
+}
+
+table td {
+  width: 200px;
+  text-align: center;
+}
+
+table td img {
+  width: 100px;
+  object-fit: cover;
+  margin-left: -40px;
+}
+
+table td p {
+  margin-left: -50px;
+  font-weight: bold;
+}
+
+table td input {
+  width: 50px;
+  height: 30px;
+  margin-left: 30px;
+  border: none;
+  box-shadow: 0 0 5px gray;
+  padding-left: 10px;
+}
+
+table td button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: none;
+  box-shadow: 0 0 5px gray;
+}
+
+table td span {
+  color: black;
+  font-weight: bold;
+}
+
+table td a {
+  text-decoration: none;
+}
+
+table td a i {
+  color: black;
+  font-size: 20px;
+}
+
+table .tong {
+  color: red;
+  font-size: larger;
+}
+
+.main .dathang {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background: #EB1B33;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: 20%;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.mobile {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.addcart {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.addcart img {
+  width: 100px;
+  object-fit: cover;
+  margin-left: -40px;
+}
+
+.addcart a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.addcart p {
+  width: 40%;
+}
+
+.addcart span {
+  width: 30%;
+  color: red;
+  font-weight: bold;
+}
+
+.addcart form {
+  padding-right: 30%;
+}
+
+.addcart form input {
+  width: 50px;
+  height: 30px;
+  margin-left: 30px;
+  border: none;
+  box-shadow: 0 0 5px gray;
+  padding-left: 10px;
+}
+
+.addcart form input[type="number"] {
+  padding-left: 10px;
+}
+
+.addcart form button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: none;
+  box-shadow: 0 0 5px gray;
+}
+
+.datsp {
+  width: 80%;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+  margin: auto;
+}
+
+.datsp p {
+  font-weight: bold;
+}
+
+.datsp .tong {
+  color: red;
+  
+}
+
+/* reponsive */
+@media (max-width: 1327px) {
+  .reponsi_phone .phone #toggle i {
+    font-size: 35px;
+    padding-top: 5%;
+  }
+
+  .reponsi_phone .phone a {
+    text-align: right;
+    padding-right: 5%;
+  }
+
+  .reponsi_phone .phone .logo {
+    padding-right: 0;
+  }
+
+  .reponsi_phone .phone a img {
+    width: 275px;
+    height: auto;
+  }
+
+  .reponsi_phone .phone a i {
+    font-size: 35px;
+    line-height: 70px;
+  }
+
+  .reponsi_phone {
+    height: 70px;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .bottom .phai ul {
+    display: none;
+  }
+
+  .header-top-main {
+    display: none;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  .reponsi_phone {
+    display: block;
+  }
+
+  .reponsi_phone nav {
+    width: 70%;
+  }
+
+  .middle_reponsive {
+    display: block;
+  }
+
+  .banner {
+    width: 340px;
+    display: block;
+    padding-left: 0px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 0px;
+  }
+
+  .fotter {
+    flex-wrap: wrap;
+  }
+
+  .fot_tren {
+    height: 750px;
+  }
+
+  .fot_tren h2 {
+    width: 100vw;
+  }
+
+  .shop {
+    max-width: 100%;
+    padding-right: 0px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .shop h5 {
+    width: 300px;
+  }
+
+  .call {
+    max-width: 100%;
+    text-align: center;
+    padding-right: 0px;
+    margin: 50px;
+  }
+
+  .chungnhan {
+    max-width: 100%;
+    height: 100px;
+    margin: 20px;
+  }
+
+  .thanhtoan {
+    flex-wrap: wrap;
+  }
+
+  .shop iframe {
+    width: 300px;
+  }
+
+  .thanhtoan .phone {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .pay {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .ketnoi {
+    max-width: 90%;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .fot_duoi p {
+    font-size: 15px;
+  }
+
+  .main h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  table {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .reponsi_phone .phone #toggle i {
+    width: 50%;
+  }
+
+  .reponsi_phone .phone a img {
+    width: 180px;
+    height: 50px;
+  }
+
+  .reponsi_phone .phone a i {
+    line-height: 50px;
+    font-size: 25px;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .bottom .phai ul {
+    display: none;
+  }
+
+  .header-top-main {
+    display: none;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  .reponsi_phone {
+    display: block;
+  }
+
+  .reponsi_phone nav {
+    width: 70%;
+  }
+
+  .middle_reponsive {
+    display: block;
+  }
+
+  .banner {
+    width: 340px;
+    display: block;
+    padding-left: 0px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 0px;
+  }
+
+  .fotter {
+    flex-wrap: wrap;
+  }
+
+  .fot_tren {
+    height: 750px;
+  }
+
+  .fot_tren h2 {
+    width: 100vw;
+  }
+
+  .shop {
+    max-width: 100%;
+    padding-right: 0px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .shop h5 {
+    width: 300px;
+  }
+
+  .call {
+    max-width: 100%;
+    text-align: center;
+    padding-right: 0px;
+    margin: 50px;
+  }
+
+  .chungnhan {
+    max-width: 100%;
+    height: 100px;
+    margin: 20px;
+  }
+
+  .thanhtoan {
+    flex-wrap: wrap;
+  }
+
+  .shop iframe {
+    width: 300px;
+  }
+
+  .thanhtoan .phone {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .pay {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .thanhtoan .ketnoi {
+    max-width: 90%;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .fot_duoi p {
+    font-size: 15px;
+  }
+
+  .main h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  table {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  .reponsi_phone .phone a img {
+    width: 180px;
+    height: 50px;
+  }
+
+  .reponsi_phone nav ul .repon_login a {
+    text-align: left;
+    border-right: 1px solid lightgray;
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .reponsi_phone nav ul .repon_login .dangnhap {
+    height: 40px;
+    width: 70px;
+    text-align: left;
+    line-height: 40px;
+    margin-top: -10px;
+    border-right: none;
+  }
+
+  .reponsi_phone nav ul .repon_login img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    top: -10px;
+    border-radius: 0;
+  }
+}

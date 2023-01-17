@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/responsive.css" />
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../src/css/owl.carousel.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+      <header>
+        <div class="logo">
+            <a href = "../index.php" class = "navbar-brand">
+                <img src = "../src/img/index/logo-png.png" alt = "logo">
+                <h2>Soul Burger</h2>
+              </a>
+        </div>
+        <img class="list-icon" src="../src/img/index/list-icon.png" alt="">
+        <div class="header-item">
+            <div class="header-item-box">
+                <img src="../src/img/index/close-icon.png" alt="" class="close-icon">
+                <div class="menu">
+                    <ul>
+                        <li><a href="../index.php">Trang chủ</a></li>
+                        <li><a href="../view/About.html">Giới thiệu</a></li>
+                        <li><a href="../view/product.html">Thực đơn</a></li>
+                        <li><a href="../view/blog.html">Tin tức</a></li>
+                        <li><a href="../view/Contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="authenticate">
+                    <a href="../cart.html"><img src="./src/img/index/cart.png" alt=""></a>
+                    <a href="../controller/login.php" class="button" id="signin-btn">Đăng nhập</a>
+                    <a href="../view/signup.html" class="button" id="signup-btn">Đăng ký</a>
+                </div>
+            </div>
+        </div>
+    </header>
+        <main>
+            <div class="cart-wrapper">
+                <h1 class="box-heading">Giỏ hàng</h1>
+                <table width="100%" class="cart-box"></table>
+            </div>
+            <!-- <div class="boxtrai mr">
+                <div class="row">
+                  <h1>THÔNG TIN NHẬN HÀNG</h1>
+                  <table class="thongtinnhanhang">
+                    <tr>
+                      <td width="20%">Họ tên</td>
+                      <td><input type="text" name="hoten" /></td>
+                    </tr>
+                    <tr>
+                      <td>Địa chỉ</td>
+                      <td><input type="text" name="diachi" /></td>
+                    </tr>
+                    <tr>
+                      <td>Điện thoại</td>
+                      <td><input type="text" name="dienthoai" /></td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td><input type="text" name="email" /></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="row mb">
+                  <h1>GIỎ HÀNG</h1>
+                  <table>
+                    <tr>
+                      <th>STT</th>
+                      <th>Hình</th>
+                      <th>Tên sản phẩm</th>
+                      <th>Đơn giá</th>
+                      <th>Số lượng</th>
+                      <th>Thành tiền ($)</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td><img src="images/1.jpg" alt="" /></td>
+                      <td>TRẺ NGOAN TRẺ HƯ</td>
+                      <td>96.000đ</td>
+                      <td>1</td>
+                      <td>
+                        <div>96.000đ</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th colspan="5">Tổng đơn hàng</th>
+                      <th>
+                        <div>96.000đ</div>
+                      </th>
+                    </tr>
+                  </table>
+                </div>
+                <div class="row mb">
+                  <button class="dongy">ĐỒNG Ý ĐẶT HÀNG</button>
+                </div>
+              </div> -->
+        </main>
+        <footer>
+            <div class="logo">
+                <a href = "index.html" class = "navbar-brand">
+                    <img src = "./src/img/index/logo-png.png" alt = "logo">
+                    <h2>Soul Burger</h2>
+                  </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="./About.html">Giới thiệu</a></li>
+                    <li><a href="./product.html">Thực đơn</a></li>
+                    <li><a href="./blog.html">Tin tức</a></li>
+                    <li><a href="./Contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="./src/js/main.js"></script>
+    <script>
+        handleMenu();
+        renderCart();
+        renderTotalPrice();
+        handleCartItem();
+    </script>
+</body>
+
+</html>
